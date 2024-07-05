@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic div</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="position: relative;" id="bk" >
+    <!-- headaer part start      -->
+    <header id="Nav-bar" class="Nav-bar">
+        <div class="container">
+            <div class="row d-flex  space-between">
+                <div class="logo">
+                    <img src="./img/7.jpg" class="w-30 img-fluid" alt="logo">
+                </div>
+                <div class="menu">
+                    <ul class="d-flex">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contac></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- headaer part end  -->
+
+    <!-- dynamic card  -->
+    <section id="card_container">
+    <div class="container">
+      <div id="cardRoot" class="d-flex flex-wrap"></div>
+    </div>
+    </section>
+
+    <!-- dynamic card  -->
+
+<!-- back to top button  -->
+    <a href="#bk" class="button">
+        <svg class="svgIcon" viewBox="0 0 384 512">
+          <path
+            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+          ></path>
+        </svg>
+    </a>
+      
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
